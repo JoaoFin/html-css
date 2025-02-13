@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*'>' um paragrafo que esta dentro de uma div(filho da div)*/
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: black;
+            width: 300px;
+        }
+
+        div:hover{
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto a baixo</p>
+    <div>
+    Passe o mouse aqui....orem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quas, alias exercitationem eaque sed tenetur itaque enim veniam id officiis perspiciatis laboriosam incidunt perferendis rerum iusto quae deserunt dolores nesciunt!
+    <p>TEXTO ESCONDIDO: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat minus corrupti nostrum unde alias omnis, voluptatum nulla laborum dolorem maiores officiis, praesentium neque aliquam? Similique odit id possimus quaerat!</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, odit nobis pariatur accusamus molestiae accusantium veritatis quas, delectus ratione ullam non exercitationem neque distinctio. Quidem temporibus amet quaerat molestias eius? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt dicta, veniam dignissimos quasi ab placeat libero architecto totam, doloremque aperiam commodi maxime dolore maiores repellat velit doloribus quisquam minima sit.</p>
+</body>
+</html>

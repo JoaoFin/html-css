@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+/*ID eu sempre uso # (so um elemento)
+CLASS semopre uso .*/
+body{
+    background-color: #5e84d694;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+color: blue
+}
+h1#principal{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h2{
+color: rgb(2, 2, 7);
+}
+.basico{
+color: azure;
+}
+.intermediario{
+color: red;
+}
+.avançado{
+color: yellow;
+}
+.destaque{
+    background-color: blueviolet;
+}
